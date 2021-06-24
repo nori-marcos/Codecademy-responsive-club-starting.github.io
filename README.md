@@ -17,3 +17,4 @@ To run this project, it is necessary to use a browser.
 This is a finished project.
 
 ## Link to access the web page
+https://nori-marcos.github.io/responsive-club-starting.github.io/
