@@ -10,7 +10,7 @@ html {
 header{
     display: inline-flex;
     justify-content: flex-end;
-    background-color: #269AFB;
+    background-color: #0475D2;
     color: #FFFFFF;
     width: 100%;
 }
@@ -76,12 +76,12 @@ p{
 }
 
 .motivational h2{
-    color: #269AFB;
+    color: #0475D2;
     margin: 0;
 }
 
 .motivational p{
-    color: #269AFB;
+    color: #0475D2;
     margin-top: 10px;
 }
 
@@ -92,7 +92,7 @@ p{
     flex-direction: column;
     justify-content: center;
     justify-items: center;
-    background-color: #269AFB;
+    background-color: #0475D2;
     padding: 20px 10px;
 }
 
@@ -120,12 +120,12 @@ p{
     width: 100%;
     text-align: center;
     margin: 0;
-    color: #269AFB;
+    color: #0475D2;
 }
 
 .meeting-places h4 {
     margin: 0;
-    color: #269AFB;
+    color: #0475D2;
 }
 
 .window {
@@ -151,7 +151,7 @@ p{
 /* Invitation */
 
 .invitation{
-    background-color: #269AFB;
+    background-color: #0475D2;
     align-items: center;
     text-align: center;
     padding: 15px;
@@ -190,7 +190,7 @@ p{
 
 /* Footer */
 footer{
-    background-color: #269AFB;
+    background-color: #0475D2;
     color: #FFFFFF;
 }
 
