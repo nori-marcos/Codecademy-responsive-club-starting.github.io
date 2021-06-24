@@ -1,0 +1,260 @@
+/* *{
+    border: red solid 1px !important;
+} */
+
+html {
+    font-size: 16px;
+    background-color: #F7F5F6;
+}
+
+header{
+    display: inline-flex;
+    justify-content: flex-end;
+    background-color: #269AFB;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+header p {
+    margin: 0 20px;
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    background-image: url(./images/chris-yang-45-zlCR4zHE-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 150px;
+}
+
+h1 {
+    font-size: 2rem;
+    background-color: white;
+    opacity: 0.7;
+    margin: 0;
+    text-align: center;
+    font-family: 'Anton';
+    
+}
+
+h2{
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+    
+}
+
+h3{
+    font-size: 1.2rem;
+    font-family: 'Roboto';
+    
+}
+
+h4{
+    font-size: 1.2rem;
+    font-family: 'Roboto';
+
+}
+
+p{
+    font-family: 'Roboto';
+    font-size: 0.75rem;
+}
+
+/* Motivational */
+.motivational{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    background-color: #F0F9FF;
+    padding: 20px 10px;
+}
+
+.motivational h2{
+    color: #269AFB;
+    margin: 0;
+}
+
+.motivational p{
+    color: #269AFB;
+    margin-top: 10px;
+}
+
+
+/* Statement */
+.statement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    background-color: #269AFB;
+    padding: 20px 10px;
+}
+
+.statement h3 {
+    margin: 0;
+    color: #F0F9FF;
+}
+
+.statement p{
+    text-align: right;
+    color: #F0F9FF;
+}
+
+
+/* Meeting Places */
+.meeting-places{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+
+.meeting-places h2 {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    color: #269AFB;
+}
+
+.meeting-places h4 {
+    margin: 0;
+    color: #269AFB;
+}
+
+.window {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.place {
+    margin: 10px;
+}
+
+.place img{
+    max-width: 250px;
+    margin: 0;
+}
+
+
+/* Invitation */
+
+.invitation{
+    background-color: #269AFB;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.invitation h2{
+    color: #FFFFFF;
+    margin: 0;
+}
+
+
+/* Social Media */
+.social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    padding: 15px;
+}
+
+.social-media h4{
+    margin: 0;
+}
+
+.logos{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.social-media img{
+    max-width: 20px;
+    max-height: 20px;
+}
+
+/* Footer */
+footer{
+    background-color: #269AFB;
+    color: #FFFFFF;
+}
+
+footer p {
+    margin: 0;
+    text-align: right;
+}
+
+@media only screen and (min-width:1000px) {
+    html {
+        padding: 0 150px;
+    }
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .banner{
+        min-height: 300px;
+    }
+
+    h1{
+        font-size: 5rem;
+        letter-spacing: 0.3rem;
+        line-height: 6rem;
+    }
+    
+    h2{
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    h4{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 1.3rem;
+    }
+    
+}
+@media only screen and (min-width:768px) {
+    .banner{
+        min-height: 250px;
+    }
+    
+    h1{
+        font-size: 4rem;
+        line-height: 4.5rem;
+    }
+
+    h2{
+        font-size: 2.5rem;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
+
+    p{
+        font-size: 1.5rem;
+    }
+}
